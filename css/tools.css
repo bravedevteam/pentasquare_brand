@@ -1,0 +1,30 @@
+/* Text Align */
+.tl { text-align:left !important; }
+.tc { text-align:center !important; }
+.tr { text-align:right !important; }
+
+
+/* Margin */
+.mt20 { margin-top:20px !important; }
+
+
+/* Divine */
+.clear:after { content:''; display:block; clear:both; visibility:visible; }
+.clear>.left { float:left; }
+.clear>.right { float:right; }
+
+
+/* Button */
+.btn { position:relative; }
+.btn.left { text-align:left; }
+.btn.center { text-align:center; }
+.btn.right { text-align:right; }
+
+
+/* Select */
+.boxSelect { position:relative; }
+.boxSelect>a { height:40px; display:block; padding-right:32px; background:url('../images/common/iconSelect.png') right center no-repeat; line-height:40px; font-size:16px; color:#000; font-weight:700; }
+.boxSelect>ul { width:100%; position:absolute; left:0; top:40px; overflow:hidden; }
+.boxSelect>ul li { line-height:30px; font-size:16px; color:#000; font-weight:700; cursor:pointer; }
+
+.boxSelect.is--lang { float:left; margin-right:50px; }
