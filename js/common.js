@@ -12,6 +12,10 @@ $(function(){
     }
   });
 
+  $("#gnb .menu a").click(function(){
+    $(this).addClass("on").siblings().removeClass("on");
+  });
+
 
   //Select
   $(".boxSelect .list").slideUp(0);

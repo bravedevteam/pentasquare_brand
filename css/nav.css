@@ -26,6 +26,7 @@
 #gnb .sns a.polymath:hover { background-image:url('../images/common/iconSNS_polymath_on.png'); }
 #gnb .menu a { display:block; color:#fff; font-size:35px; font-weight:700; transition:all .3s; }
 #gnb .menu a+a { margin-top:40px; }
+#gnb .menu a.on,
 #gnb .menu a:hover { color:#00f5ce; }
 #gnb .menu:hover a { opacity:.6; }
 #gnb .menu:hover a:hover { opacity:1; }
@@ -80,21 +81,21 @@
 
 
 /* 스크롤에 따른 Header Action */
-.fp-viewing-page_2 #header h1,
-.fp-viewing-page_3 #header h1,
-.fp-viewing-page_4 #header h1 { background-image:url('../images/common/logo_white.png'); }
+.fp-viewing-universe #header h1,
+.fp-viewing-service #header h1,
+.fp-viewing-hyper #header h1 { background-image:url('../images/common/logo_white.png'); }
 
-.fp-viewing-page_2 #btnMenu:before,
-.fp-viewing-page_3 #btnMenu:before,
-.fp-viewing-page_4 #btnMenu:before,
-.fp-viewing-page_2 #btnMenu:after,
-.fp-viewing-page_3 #btnMenu:after,
-.fp-viewing-page_4 #btnMenu:after { background-color:#fff; }
+.fp-viewing-universe #btnMenu:before,
+.fp-viewing-service #btnMenu:before,
+.fp-viewing-hyper #btnMenu:before,
+.fp-viewing-universe #btnMenu:after,
+.fp-viewing-service #btnMenu:after,
+.fp-viewing-hyper #btnMenu:after { background-color:#fff; }
 
-.fp-viewing-page_2 .boxSelect>a,
-.fp-viewing-page_3 .boxSelect>a,
-.fp-viewing-page_4 .boxSelect>a { background-image:url('../images/common/iconSelect_white.png'); color:#fff; }
+.fp-viewing-universe .boxSelect>a,
+.fp-viewing-service .boxSelect>a,
+.fp-viewing-hyper .boxSelect>a { background-image:url('../images/common/iconSelect_white.png'); color:#fff; }
 
-.fp-viewing-page_2 .boxSelect>ul li,
-.fp-viewing-page_3 .boxSelect>ul li,
-.fp-viewing-page_4 .boxSelect>ul li { color:#fff; }
+.fp-viewing-universe .boxSelect>ul li,
+.fp-viewing-service .boxSelect>ul li,
+.fp-viewing-hyper .boxSelect>ul li { color:#fff; }
