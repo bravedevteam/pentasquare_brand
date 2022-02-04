@@ -28,7 +28,8 @@ $(function(){
 
 
   //Gnb
-  $("#btnMenu").click(function(){
+  $("#btnMenu").click(function(e){
+    e.preventDefault();
     if($(this).hasClass("close")){
       $(this).removeClass("close");
       $(".boxSelect").show();
