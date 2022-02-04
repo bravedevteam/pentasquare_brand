@@ -12,16 +12,11 @@ $(function(){
 
     var pos = $(this).scrollTop();
 
-    console.log(section[4] + ", "+ pos)
-
     if(pos < section[1]){
-      console.log("333")
       header.removeClass("is--white");
     }else if(section[4] <= pos){
-      console.log("222")
       header.removeClass("is--white");
     }else if(section[1] <= pos < section[4]){
-      console.log("111")
       header.addClass("is--white");
     }
   }
