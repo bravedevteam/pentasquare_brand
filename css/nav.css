@@ -81,21 +81,8 @@
 
 
 /* 스크롤에 따른 Header Action */
-.fp-viewing-universe #header h1,
-.fp-viewing-service #header h1,
-.fp-viewing-hyper #header h1 { background-image:url('../images/common/logo_white.png'); }
-
-.fp-viewing-universe #btnMenu:before,
-.fp-viewing-service #btnMenu:before,
-.fp-viewing-hyper #btnMenu:before,
-.fp-viewing-universe #btnMenu:after,
-.fp-viewing-service #btnMenu:after,
-.fp-viewing-hyper #btnMenu:after { background-color:#fff; }
-
-.fp-viewing-universe .boxSelect>a,
-.fp-viewing-service .boxSelect>a,
-.fp-viewing-hyper .boxSelect>a { background-image:url('../images/common/iconSelect_white.png'); color:#fff; }
-
-.fp-viewing-universe .boxSelect>ul li,
-.fp-viewing-service .boxSelect>ul li,
-.fp-viewing-hyper .boxSelect>ul li { color:#fff; }
+#header.is--white h1 { background-image:url('../images/common/logo_white.png'); }
+#header.is--white #btnMenu:before,
+#header.is--white #btnMenu:after { background-color:#fff; }
+#header.is--white .boxSelect>a { background-image:url('../images/common/iconSelect_white.png'); color:#fff; }
+#header.is--white .boxSelect>ul li { color:#fff; }

@@ -30,7 +30,7 @@
 /* common */
 * {margin:0; padding:0; box-sizing: border-box; list-style:none; text-decoration:none;
 		outline: none; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: transparent; font-family:'Poppins','SpoqaHanSansNeo', sans-serif; }
-html { height:100%; }
+html { height:100%; overflow-x:hidden; }
 html, body { width: 100%; min-height:100%; position: relative; font-size:12px; font-family:'Poppins', 'SpoqaHanSansNeo',sans-serif; line-height:1.4; font-weight:400; color:#1b1b1b; }
 body { background:#f4f6f9; }
 ul>li>a { text-decoration:none; }
