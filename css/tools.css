@@ -23,7 +23,9 @@
 
 /* Select */
 .boxSelect { position:relative; }
-.boxSelect>a { height:40px; display:block; padding-right:32px; background:url('../images/common/iconSelect.png') right center no-repeat; line-height:40px; font-size:16px; color:#000; font-weight:700; }
+.boxSelect>a { height:40px; display:block; padding-right:32px; line-height:40px; font-size:16px; color:#000; font-weight:700; }
+.boxSelect>a:after { content:''; width:14px; height:8px; position:absolute; right:0; top:50%; margin-top:-4px; background:url('../images/common/iconSelect.png') center center no-repeat; transition:all .3s; }
+.boxSelect>a.on:after { transform:rotate(180deg); }
 .boxSelect>ul { width:100%; position:absolute; left:0; top:40px; overflow:hidden; }
 .boxSelect>ul li { line-height:30px; font-size:16px; color:#000; font-weight:700; cursor:pointer; }
 

@@ -84,5 +84,6 @@
 #header.is--white h1 { background-image:url('../images/common/logo_white.png'); }
 #header.is--white #btnMenu:before,
 #header.is--white #btnMenu:after { background-color:#fff; }
-#header.is--white .boxSelect>a { background-image:url('../images/common/iconSelect_white.png'); color:#fff; }
+#header.is--white .boxSelect>a { color:#fff; }
+#header.is--white .boxSelect>a:after { background-image:url('../images/common/iconSelect_white.png'); }
 #header.is--white .boxSelect>ul li { color:#fff; }
