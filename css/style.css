@@ -89,7 +89,8 @@
 .boxServiceImg>div { display:none; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);  }
 .boxServiceImg>div:nth-child(1) { width:500px; }
 .boxServiceImg>div:nth-child(2) { width:454px; }
-.boxServiceImg>div:nth-child(3) { width:606px; }
+.boxServiceImg>div:nth-child(3) { width:318px; }
+.boxServiceImg>div:nth-child(4) { width:606px; }
 
 .listConnect { width:1194px; margin:140px auto; overflow:hidden; }
 .listConnect li { width:300px; padding-top:220px; float:left; position:relative; background-size:auto 170px; background-position:center top; background-repeat:no-repeat; text-align:center; }

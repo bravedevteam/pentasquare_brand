@@ -47,6 +47,8 @@ $(function(){
 
 
   //Select
+  var lang = ["KO", "EN"];
+
   $(".boxSelect .list").slideUp(0);
   $(".boxSelect .selected").click(function(e){
     e.preventDefault();
@@ -60,22 +62,30 @@ $(function(){
   });
   $(".boxSelect .list li").click(function(){
     var target = $(this).html();
-    $(".boxSelect .selected").html(target).removeClass("on");
+    if(target == lang[0]){
+      $(".boxSelect .selected").html(lang[0]);
+      $(".boxSelect .list li").html(lang[1])
+    }else if(target == lang[1]){
+      $(".boxSelect .selected").html(lang[1]);
+      $(".boxSelect .list li").html(lang[0])
+    }
+    $(".boxSelect .selected").removeClass("on");
     $(".boxSelect .list").slideUp(300);
   });
 
 
   //Service
   $(".boxService dd").slideUp(0);
-  $(".boxService dt:eq(0)").addClass("on");
-  $(".boxService dd:eq(0)").slideDown(300);
   $(".boxServiceImg div:eq(0)").fadeIn(300);
 
   $(".boxService dt").click(function(){
     var idx = $(this).attr("data-role");
+    var img = Number(idx)+1;
+
+    console.log(img)
     $(this).addClass("on").siblings("dt").removeClass("on")
     $(this).next("dd").slideDown(300).siblings("dd").slideUp(300);
-    $(".boxServiceImg div:eq("+idx+")").fadeIn(300).siblings().fadeOut(300);
+    $(".boxServiceImg div:eq("+img+")").fadeIn(300).siblings().fadeOut(300);
   });
 
 });
