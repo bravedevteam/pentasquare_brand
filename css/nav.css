@@ -21,9 +21,13 @@
 #gnb .sns a.instagram { background-image:url('../images/common/iconSNS_instagram.png'); background-size:21px auto; }
 #gnb .sns a.kakao { background-image:url('../images/common/iconSNS_kakao.png'); background-size:auto 22px; }
 #gnb .sns a.polymath { background-image:url('../images/common/iconSNS_polymath.png'); background-size:19px auto; }
+#gnb .sns a.twitter { background-image:url('../images/common/iconSNS_twitter.png'); background-size:20px auto; }
+#gnb .sns a.discode { background-image:url('../images/common/iconSNS_discode.png'); background-size:18px auto; }
 #gnb .sns a.instagram:hover { background-image:url('../images/common/iconSNS_instagram_on.png'); }
 #gnb .sns a.kakao:hover { background-image:url('../images/common/iconSNS_kakao_on.png'); }
 #gnb .sns a.polymath:hover { background-image:url('../images/common/iconSNS_polymath_on.png'); }
+#gnb .sns a.twitter:hover { background-image:url('../images/common/iconSNS_twitter_on.png'); }
+#gnb .sns a.discode:hover { background-image:url('../images/common/iconSNS_discode_on.png'); }
 #gnb .menu a { display:block; color:#fff; font-size:35px; font-weight:700; transition:all .3s; }
 #gnb .menu a+a { margin-top:40px; }
 #gnb .menu a.on,

@@ -66,7 +66,7 @@
 
 .mainSwiper .swiper-slide.slide1 .bgMov { width:1152px; height:500px; }
 .mainSwiper .swiper-slide.slide1 .bgMov video { height:499px; }
-.mainSwiper .swiper-slide.slide2 .bgMov { width:816px; height:564px; margin-left:-10px; }
+.mainSwiper .swiper-slide.slide2 .bgMov { width:564px; height:564px; margin-left:46px; }
 .mainSwiper .swiper-slide.slide2 .bgMov video { height:543px; left:-194px; }
 
 .mainSwiper.swiper-container-horizontal>.swiper-pagination-bullets,
