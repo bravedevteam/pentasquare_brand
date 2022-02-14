@@ -76,13 +76,14 @@ $(function(){
 
   //Service
   $(".boxService dd").slideUp(0);
-  $(".boxServiceImg div:eq(0)").fadeIn(300);
+  $(".boxService dt:eq(1)").addClass("on");
+  $(".boxService dd:eq(1)").slideDown(300);
+  $(".boxServiceImg div:eq(2)").fadeIn(300);
 
   $(".boxService dt").click(function(){
     var idx = $(this).attr("data-role");
     var img = Number(idx)+1;
-
-    console.log(img)
+    
     $(this).addClass("on").siblings("dt").removeClass("on")
     $(this).next("dd").slideDown(300).siblings("dd").slideUp(300);
     $(".boxServiceImg div:eq("+img+")").fadeIn(300).siblings().fadeOut(300);
