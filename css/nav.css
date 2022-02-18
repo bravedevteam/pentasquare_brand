@@ -1,5 +1,6 @@
 #header { width:100%; position:fixed; left:0; top:0; z-index:99; }
 #header h1 { width:210px; height:40px; margin:45px 0 45px 60px; background:url('../images/common/logo.png') center center no-repeat; font-size:0; text-indent:-99999px; }
+#header h1.is--white { background-image:url('../images/common/logo_white.png'); }
 #header .opt { position:absolute; right:60px; top:45px; }
 
 #btnMenu { width:40px; height:40px; float:left; position:relative; font-size:0; text-indent:-99999px; transition:all .3s; }
@@ -91,3 +92,35 @@
 #header.is--white .boxSelect>a { color:#fff; }
 #header.is--white .boxSelect>a:after { background-image:url('../images/common/iconSelect_white.png'); }
 #header.is--white .boxSelect>ul li { color:#fff; }
+
+
+@media screen and (max-width: 767px) {
+  #header h1 { width:121px; height:24px; margin:18px 0 18px 16px; background-size:100% auto; }
+  #header .opt { right:16px; top:18px; }
+
+  #btnMenu { width:15px; height:24px; } 
+  #btnMenu:before,
+  #btnMenu:after { width:15px; height:3px; margin-right:-7px; margin-top:-4px; }
+  #btnMenu:after { width:9px; margin-top:3px; }
+
+  #btnMenu.close:before,
+  #btnMenu.close:after { width:18px; height:2px; margin-right:-9px; margin-top:-1px; }
+
+  #gnb { width:100%; padding:130px 0 130px 40px; justify-content:center; }
+  #gnb .sns { position:absolute; left:40px; bottom:54px; }
+  #gnb .menu a { font-size:20px; }
+  #gnb .menu a+a { margin-top:30px; }
+  #gnb .btn { margin-top:40px; }
+  #gnb .btn a { width:215px; height:60px; padding-left:24px; line-height:58px; font-size:13px; }
+  #gnb .btn a:after { width:24px; height:8px; right:24px; }
+
+  #footer .inner { padding:26px 16px 32px; }
+  #footer h2 { width:120px; height:22px; margin-bottom:5px; }
+  #footer .sns { position:relative; right:auto; top:0; margin-bottom:20px; margin-left:-4px; }
+  #footer .sns a { width:34px; }
+  #footer .sns a.instagram { background-image:url('../images/common/iconSNS_instagram_m.png'); }
+  #footer .sns a.kakao { background-image:url('../images/common/iconSNS_kakao_m.png'); }
+  #footer .sns a.polymath { background-image:url('../images/common/iconSNS_polymath_m.png'); }
+  #footer .agreement a { font-size:13px; }
+  #footer .copyright { font-size:13px; }
+}

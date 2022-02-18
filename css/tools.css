@@ -1,3 +1,7 @@
+.pc { display:block !important; }
+.mo { display:none !important; }
+
+
 /* Text Align */
 .tl { text-align:left !important; }
 .tc { text-align:center !important; }
@@ -30,3 +34,16 @@
 .boxSelect>ul li { line-height:30px; font-size:16px; color:#000; font-weight:700; cursor:pointer; }
 
 .boxSelect.is--lang { float:left; margin-right:50px; }
+
+
+@media screen and (max-width: 767px) {
+  .pc { display:none !important; }
+  .mo { display:block !important; }
+
+  .boxSelect>a { width:35px; height:24px; padding-right:24px; font-size:14px; 
+    line-height:24px; }
+  .boxSelect>a:after { width:8px; height:5px; margin-top:-2px; background-size:100% auto; }
+  .boxSelect>ul { top:32px; }
+
+  .boxSelect.is--lang { margin-right:30px; }
+}

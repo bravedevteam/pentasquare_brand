@@ -31,13 +31,17 @@ $(function(){
   $("#btnMenu").click(function(e){
     e.preventDefault();
     if($(this).hasClass("close")){
+      $("html, body").css("overflow", "auto");
       $(this).removeClass("close");
       $(".boxSelect").show();
       $("#gnb").removeClass("is--open");
+      $("#header h1").removeClass("is--white");
     }else{
+      $("html, body").css("overflow", "hidden");
       $(this).addClass("close");
       $(".boxSelect").hide();
       $("#gnb").addClass("is--open");
+      $("#header h1").addClass("is--white");
     }
   });
 
