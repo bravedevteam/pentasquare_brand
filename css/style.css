@@ -5,7 +5,9 @@
 
 .section { position:relative; }
 .section.section1 { width:100%; height:100vh; }
+/*
 .section.section1:after { content:''; width:100%; max-width:1440px; height:14px; position:absolute; left:50%; bottom:120px; background:url('../images/common/iconScroll.png') 127px center no-repeat; background-size:auto 100%; transform:translateX(-50%); z-index:10; animation:scroll 1.2s infinite; }
+*/
 
 @keyframes scroll{
   0% { bottom:120px; }
@@ -57,16 +59,17 @@
 
 .mainSwiper { height:100%; }
 .mainSwiper .swiper-slide { background-repeat:no-repeat; background-color:#fff; color:#000; }
-.mainSwiper .swiper-slide .inner { top:50%; padding-left:120px; transform:translateY(-50%); }
+.mainSwiper .swiper-slide .inner { top:50%; padding-left:120px; transform:translateY(-50%); line-height:1.2; }
 .mainSwiper .swiper-slide .subject { font-size:30px; font-weight:700; }
 .mainSwiper .swiper-slide .title { font-size:50px; font-weight:700; }
-.mainSwiper .swiper-slide .txt_klip { margin-top:55px; padding-top:50px; background:url('../images/main/imgKlip.png') left top no-repeat; background-size:86px auto; font-size:24px; }
+.mainSwiper .swiper-slide .copy { margin-top:15px; font-size:25px; color:#000; }
+.mainSwiper .swiper-slide .txt_klip { margin-top:84px; padding-top:50px; background:url('../images/main/imgKlip.png') left top no-repeat; background-size:86px auto; font-size:24px; }
 .mainSwiper .swiper-slide .bgMov { display:flex; position:absolute; left:50%; top:50%; transform:translateY(-50%); margin-left:-108px; align-items:center; overflow:hidden; z-index:-1; }
 .mainSwiper .swiper-slide .bgMov video { position:absolute; left:0; top:0; z-index:1; }
 .mainSwiper .swiper-slide .bgMov .mask { position:relative; z-index:10; }
 
 .mainSwiper .swiper-slide.slide1 .bgMov { width:1152px; height:500px; }
-.mainSwiper .swiper-slide.slide1 .bgMov video { height:499px; }
+.mainSwiper .swiper-slide.slide1 .bgMov video { height:498px; top:1px; }
 .mainSwiper .swiper-slide.slide2 .bgMov { width:564px; height:564px; margin-left:46px; }
 .mainSwiper .swiper-slide.slide2 .bgMov video { height:543px; left:-194px; top:10px; }
 
@@ -76,6 +79,10 @@
 .mainSwiper .swiper-pagination-bullet { width:2px; height:62px; display:block; margin:0; border-radius:0; opacity:.1; }
 .mainSwiper .swiper-pagination-bullet-active { background:#000; opacity:1; }
 .mainSwiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin:0; }
+
+.bizPartner { width:100%; padding:0 60px; position:absolute; left:0; bottom:32px; }
+.bizPartner .swiper-wrapper { align-items:center; }
+.bizPartner .swiper-slide { width:auto; }
 
 .boxService { display:flex; margin-top:80px; align-items:center; justify-content:space-between; flex-direction: row-reverse; }
 .boxService dl { width:512px; margin-left:120px; font-size:18px; }

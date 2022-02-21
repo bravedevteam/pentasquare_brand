@@ -1,6 +1,5 @@
 #header { width:100%; position:fixed; left:0; top:0; z-index:99; }
 #header h1 { width:210px; height:40px; margin:45px 0 45px 60px; background:url('../images/common/logo.png') center center no-repeat; font-size:0; text-indent:-99999px; }
-#header h1.is--white { background-image:url('../images/common/logo_white.png'); }
 #header .opt { position:absolute; right:60px; top:45px; }
 
 #btnMenu { width:40px; height:40px; float:left; position:relative; font-size:0; text-indent:-99999px; transition:all .3s; }
@@ -96,6 +95,7 @@
 
 @media screen and (max-width: 767px) {
   #header h1 { width:121px; height:24px; margin:18px 0 18px 16px; background-size:100% auto; }
+  #header h1.is--white { background-image:url('../images/common/logo_white.png'); }
   #header .opt { right:16px; top:18px; }
 
   #btnMenu { width:15px; height:24px; } 
