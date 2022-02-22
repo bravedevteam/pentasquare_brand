@@ -107,34 +107,34 @@
 				</div>
 				<div class="bizPartner">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
+						<div class="swiper-slide img1">
 							<a href="#"><img src="./images/main/imgPartner_1.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img2">
 							<a href="#"><img src="./images/main/imgPartner_2.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img3">
 							<a href="#"><img src="./images/main/imgPartner_3.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img4">
 							<a href="#"><img src="./images/main/imgPartner_4.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img5">
 							<a href="#"><img src="./images/main/imgPartner_5.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img6">
 							<a href="#"><img src="./images/main/imgPartner_6.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img7">
 							<a href="#"><img src="./images/main/imgPartner_7.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img8">
 							<a href="#"><img src="./images/main/imgPartner_8.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img9">
 							<a href="#"><img src="./images/main/imgPartner_9.png" alt="" /></a>
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide img10">
 							<a href="#"><img src="./images/main/imgPartner_10.png" alt="" /></a>
 						</div>
 					</div>
@@ -312,11 +312,16 @@
 
 		var bizPartner = new Swiper(".bizPartner", {
 			slidesPerView: "auto",
-      spaceBetween: 44,
+      spaceBetween: 20,
 			loop: true,
 			autoplay: {
 				delay: 3000,
 				disableOnInteraction: false,
+			},
+			breakpoints: {
+				768: {
+					spaceBetween: 70,
+				}
 			}
 		});
 

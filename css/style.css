@@ -80,9 +80,10 @@
 .mainSwiper .swiper-pagination-bullet-active { background:#000; opacity:1; }
 .mainSwiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin:0; }
 
-.bizPartner { width:100%; padding:0 60px; position:absolute; left:0; bottom:32px; }
+.bizPartner { width:100%; padding:0 66px; position:absolute; left:0; bottom:30px; }
 .bizPartner .swiper-wrapper { align-items:center; }
 .bizPartner .swiper-slide { width:auto; }
+
 
 .boxService { display:flex; margin-top:80px; align-items:center; justify-content:space-between; flex-direction: row-reverse; }
 .boxService dl { width:512px; margin-left:120px; font-size:18px; }
@@ -158,9 +159,10 @@
   .mainSwiper .swiper-slide .bgMov { position:relative; top:0; left:0; margin-left:0; transform:none; }
   .mainSwiper .swiper-slide .subject { font-size:21px; }
   .mainSwiper .swiper-slide .title { font-size:30px; }
-  .mainSwiper .swiper-slide .txt_klip { display:inline-block; margin-top:18px; padding-top:0; padding-left:46px; background-size:38px auto; font-size:15px; }
+  .mainSwiper .swiper-slide .copy { font-size:13px; margin-top:10px; }
+  .mainSwiper .swiper-slide .txt_klip { display:inline-block; margin-top:40px; padding-top:0; padding-left:46px; background-size:38px auto; font-size:15px; }
     
-  .mainSwiper .swiper-slide.slide1 .bgMov { width:auto; height:auto; margin-bottom:38px; }
+  .mainSwiper .swiper-slide.slide1 .bgMov { width:auto; height:auto; margin-bottom:50px; }
   .mainSwiper .swiper-slide.slide1 .bgMov video { height:99%; left:50%; transform:translateX(-50%); top:2px; }
   .mainSwiper .swiper-slide.slide2 .bgMov { width:auto; height:auto; margin-left:0; margin-bottom:48px; }
   .mainSwiper .swiper-slide.slide2 .bgMov video { height:99%; left:-54px; top:2px; }
@@ -168,7 +170,7 @@
   .mainSwiper.swiper-container-horizontal>.swiper-pagination-bullets,
   .mainSwiper .swiper-pagination-custom,
   .mainSwiper .swiper-pagination-fraction { left:50%; top:auto; bottom:40px; transform:translateX(-50%); }
-  .mainSwiper .swiper-pagination-bullet { width:62px; height:2px; display:inline-block; }
+  .mainSwiper .swiper-pagination-bullet { width:62px; height:2px; display:none; }
   .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin:0 }
 
   .boxServiceImg { width:calc(100% - 40px); height:430px; text-align:center; }
@@ -208,4 +210,16 @@
 
   .boxEasyMake { height:auto; padding:40px 16px; position:relative; font-size:15px; line-height:1.4; }
   .boxEasyMake:after { width:97px; height:97px; left:auto; right:-11px; bottom:88px; }
+
+  .bizPartner { bottom:13px; padding:0 13px; }
+  .bizPartner .swiper-slide.img1 img { width:58px; }
+  .bizPartner .swiper-slide.img2 img { width:54px; }
+  .bizPartner .swiper-slide.img3 img { width:61px; }
+  .bizPartner .swiper-slide.img4 img { width:80px; }
+  .bizPartner .swiper-slide.img5 img { width:60px; }
+  .bizPartner .swiper-slide.img6 img { width:29px; }
+  .bizPartner .swiper-slide.img7 img { width:56px; }
+  .bizPartner .swiper-slide.img8 img { width:52px; }
+  .bizPartner .swiper-slide.img9 img { width:54px; }
+  .bizPartner .swiper-slide.img10 img { width:81px; }
 }
