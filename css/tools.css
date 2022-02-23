@@ -36,7 +36,7 @@
 .boxSelect.is--lang { float:left; margin-right:50px; }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), screen and (max-height:767px) and (orientation:landscape) {
   .pc { display:none !important; }
   .mo { display:block !important; }
 

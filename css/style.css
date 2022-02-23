@@ -229,7 +229,9 @@
 
   .mainSwiper { height:auto; }
   .mainSwiper .swiper-slide .inner { padding:100px 0; top:0; transform:none; }
-  .mainSwiper .swiper-slide.slide1 .bgMov { width:80%; margin-left:20%; }
+  .mainSwiper .swiper-slide .bgMov .pc { display:block !important; }
+  .mainSwiper .swiper-slide .bgMov .mo { display:none !important; }
+  .mainSwiper .swiper-slide.slide1 .bgMov { width:534px; margin-left:calc(100% - 534px); }
   .mainSwiper .swiper-slide.slide1 .bgMov video { width:100%; height:auto; }
   .mainSwiper .swiper-slide.slide2 .bgMov { width:282px; height:282px; margin:0 auto 50px; }
 }
