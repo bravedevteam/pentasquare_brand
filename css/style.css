@@ -135,7 +135,7 @@
 .boxEasyMake:after { content:''; width:281px; height:281px; position:absolute; left:50%; bottom:10px; margin-left:455px; background:url('../images/main/imgEasyMake.png') center center no-repeat; background-size:100% auto; }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), screen and (max-height:767px) and (orientation:landscape) {
   .inner { padding:80px 0; }
   
   .topArea>.title { font-size:27px; }
@@ -222,4 +222,14 @@
   .bizPartner .swiper-slide.img8 img { width:52px; }
   .bizPartner .swiper-slide.img9 img { width:54px; }
   .bizPartner .swiper-slide.img10 img { width:81px; }
+}
+
+@media screen and (max-height:767px) and (orientation:landscape) {
+  .section.section1 { height:auto; }
+
+  .mainSwiper { height:auto; }
+  .mainSwiper .swiper-slide .inner { padding:100px 0; top:0; transform:none; }
+  .mainSwiper .swiper-slide.slide1 .bgMov { width:80%; margin-left:20%; }
+  .mainSwiper .swiper-slide.slide1 .bgMov video { width:100%; height:auto; }
+  .mainSwiper .swiper-slide.slide2 .bgMov { width:282px; height:282px; margin:0 auto 50px; }
 }
