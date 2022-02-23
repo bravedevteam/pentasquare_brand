@@ -80,7 +80,7 @@
 .mainSwiper .swiper-pagination-bullet-active { background:#000; opacity:1; }
 .mainSwiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin:0; }
 
-.bizPartner { width:100%; padding:0 66px; position:absolute; left:0; bottom:30px; }
+.bizPartner { width:100%; padding:0 66px; position:absolute; left:0; bottom:30px; overflow:hidden; }
 .bizPartner .swiper-wrapper { align-items:center; }
 .bizPartner .swiper-slide { width:auto; }
 
