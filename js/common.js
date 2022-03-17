@@ -52,6 +52,8 @@ $(function(){
 
   //Select
   var lang = ["KO", "EN"];
+  var select_lang = "KO"
+  $(".langEN").hide();
 
   $(".boxSelect .list").slideUp(0);
   $(".boxSelect .selected").click(function(e){
@@ -66,12 +68,18 @@ $(function(){
   });
   $(".boxSelect .list li").click(function(){
     var target = $(this).html();
+    select_lang = target;
+
     if(target == lang[0]){
       $(".boxSelect .selected").html(lang[0]);
-      $(".boxSelect .list li").html(lang[1])
+      $(".boxSelect .list li").html(lang[1]);
+      $(".langKO").show();
+      $(".langEN").hide();
     }else if(target == lang[1]){
       $(".boxSelect .selected").html(lang[1]);
-      $(".boxSelect .list li").html(lang[0])
+      $(".boxSelect .list li").html(lang[0]);
+      $(".langKO").hide();
+      $(".langEN").show();
     }
     $(".boxSelect .selected").removeClass("on");
     $(".boxSelect .list").slideUp(300);
