@@ -43,7 +43,8 @@
   .boxSelect>a { width:35px; height:24px; padding-right:24px; font-size:14px; 
     line-height:24px; }
   .boxSelect>a:after { width:8px; height:5px; margin-top:-2px; background-size:100% auto; }
-  .boxSelect>ul { top:32px; }
+  .boxSelect>ul { top:24px; }
+  .boxSelect>ul li { line-height:24px; font-size:14px; }
 
   .boxSelect.is--lang { margin-right:30px; }
 }
