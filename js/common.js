@@ -14,9 +14,9 @@ $(function(){
 
     if(pos < section[1]){
       header.removeClass("is--white");
-    }else if(section[4] <= pos){
+    }else if(section[5] <= pos){
       header.removeClass("is--white");
-    }else if(section[1] <= pos < section[4]){
+    }else if(section[1] <= pos < section[5]){
       header.addClass("is--white");
     }
   }
